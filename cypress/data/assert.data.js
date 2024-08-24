@@ -28,7 +28,7 @@ class LoginPage {
     expect(response.body.message).to.equal('Email atau Password Anda Salah');
   }
 
-  assertFailedLoginEmptyEmail(response) {
+  assertFailedLoginEmptyCredentials(response) {
     expect(response.status).to.equal(200);
     expect(response.body.data).to.equal('Cek Formulir Anda');
     expect(response.body.status).to.equal('FAILED_LOGIN');

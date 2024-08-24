@@ -1,5 +1,4 @@
-import { EMPTY_LOGIN, VALID_LOGIN } from '../data/login.data';
-import { INVALID_LOGIN } from '../data/login.data';
+import { EMPTY_LOGIN, VALID_LOGIN, INVALID_LOGIN } from '../data/login.data';
 import { ROUTES } from '../const/routes';
 import { BASE_URL } from '../const/routes';
 

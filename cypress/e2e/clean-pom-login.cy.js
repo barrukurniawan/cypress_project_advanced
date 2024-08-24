@@ -16,7 +16,7 @@ describe('Login feature', () => {
 
   it('failed login because email is empty', () => {
     loginPage.login(EMPTY_LOGIN.email, EMPTY_LOGIN.password).then((response) => {
-      loginPage.assertFailedLoginEmptyEmail(response);
+      loginPage.assertFailedLoginEmptyCredentials(response);
     });
   });
 });
